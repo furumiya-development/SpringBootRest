@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: postgres
+server:
+  port: 8443
+  ssl:
+    key-store: spboot.p12
+    key-store-password: passpass
+    key-store-type: PKCS12
+    key-alias: spboot
